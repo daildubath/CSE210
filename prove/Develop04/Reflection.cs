@@ -5,12 +5,12 @@ using Microsoft.VisualBasic;
 
 public class Reflection : Activity
 {
-    List<string> _prompts = new List<string>{"Think of a time when you brightened someones day."
+    private List<string> _prompts = new List<string>{"Think of a time when you brightened someones day."
                                             ,"Think of a time you successfully did something difficult."
                                             ,"Think of a time you stood up for what was right."
                                             ,"Think of a time you did something selfless and holy."
                                             ,"Think of a time you brought the spirit into someone else's life."};
-    List<string> _questions = new List<string>{"Have you ever done this before in a different way?"
+    private List<string> _questions = new List<string>{"Have you ever done this before in a different way?"
                                               ,"How did you know to act?"
                                               ,"How did you emmulate the character of Christ in your actions?"
                                               ,"What do you think Christ thought of you in that moment?"
@@ -24,7 +24,7 @@ public class Reflection : Activity
                                               ,"Are there any scripture stories that demonstrate a similar attribute or experience?"
                                               ,"Had you not made that choice, what could have happened?"
                                               ,"Based off this experience, how might the Lord see you in ways you don't?"};
-    Random random = new Random();
+    private Random random = new Random();
      
     public Reflection() : base("Reflection", "This activity is an opportunity to reflect on times in your life that demonstrated desirable traits. Do your best to follow the reflective questions and focus on the positive.")
     {

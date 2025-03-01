@@ -3,13 +3,13 @@ using System;
 public class Listing : Activity
 {
 
-    List<string> _prompts = new List<string>{"List people you appreciate."
+    private List<string> _prompts = new List<string>{"List people you appreciate."
                                             ,"List the personal strengths you have or have demonstrated."
                                             ,"List times you have felt the Holy Ghost."
                                             ,"List miracles you have seen or experienced."
                                             ,"List things you would like to thank God for."};
 
-    Random random = new Random();
+    private Random random = new Random();
 
     public Listing() : base("Listing", "You will be prompted to list things that encourage thanks and gratitude. Write as many positive things as you can before the time runs out.")
     {

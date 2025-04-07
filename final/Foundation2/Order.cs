@@ -9,7 +9,7 @@ class Order
 
     public Order()
     {
-        customer = new Customer("Unknown", "Unknown", "Unknown", "Unknown", "Unknown");
+        customer = new Customer("Unknown", "No-Address", "City", "State/Province", "Country");
     }
 
     public Order(string name, string street, string city, string state, string country)
